@@ -25,27 +25,31 @@ eg. for a file named as text.txt in the root directory of you project path will 
 * *Read File* - fileAwesome.getFileData(`string` pathname);
 `var response = fileAwesome.getFileData("../../text.txt");`
 
-getFileData reads the file data and returns it in `string` fromat which can be manipulated asccordingly bu the user. 
+ getFileData reads the file data and returns it in `string` fromat which can be manipulated asccordingly bu the user. 
+
 
 * *Write File* - fileAwesome.getFileData(`string` pathname,`string` data);
 `fileAwesome.writeFileData("../../text.txt","Data that need to be written in the file");`
 
-writeFileData takes pathname in first parameter and data that need to be written in the second.
+ writeFileData takes pathname in first parameter and data that need to be written in the second.
+ 
 
 * *Append File* - fileAwesome.appendDataAtlast(`string` pathname,`string` data);
 `fileAwesome.appendDataAtlast("../../text.txt","this data appends at the last in the file");`
 
-appendDataAtlast appends the data at the last of the file.
+ appendDataAtlast appends the data at the last of the file.
+ 
 
 * *Delete File Data* - fileAwesome.removeFileData(`string` pathname);
 `fileAwesome.removeFileData("../../text.txt");`
 
-removeFileData deletes the whole data in the file.
+ removeFileData deletes the whole data in the file.
+ 
 
 * *Delete File* - fileAwesome.deleteFile(`string` pathname);
 `fileAwesome.deleteFile("../../text.txt");`
 
-deleteFile deletes the file in the specified directory.
+ deleteFile deletes the file in the specified directory.
 
 
 
