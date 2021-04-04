@@ -88,12 +88,12 @@ wordsCount returns the the number of words persent in the specified file as `int
 linesCount returns the the number of lines persent in the specified file as `int`.
 
 
-* *Charater on the plaveValue* - fileAwesome.placeCharater(`string` pathname,`int` placeValue);
+* *Charater on the placeValue* - fileAwesome.placeCharater(`string` pathname,`int` placeValue);
 `var response = fileAwesome.placeCharater("../../text.txt",3);`
 
 placeCharater returns the the `char` present on the specified `int` place in the file.
 
-* *Charater on the plaveValue* - fileAwesome.isPresent(`string` pathname,`string` value);
+* *Word Present* - fileAwesome.isPresent(`string` pathname,`string` value);
 `var response = fileAwesome.isPresent("../../text.txt","Hello");`
 
 isPresent returns the the `boolean` value to indicate weather the string is present in the file or not.
